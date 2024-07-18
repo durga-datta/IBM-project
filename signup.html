@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="page">
+        <h1>Sign Up</h1>
+        <p class="error"></p>
+        <form>
+            <div>
+                <label for="name"><i class="ri-user-2-fill"></i></label>
+                <input type="text" id="name" placeholder="Name">
+            </div>
+            <div>
+                <label for="email"><i class="ri-mail-fill"></i></label>
+                <input type="email" id="email" placeholder="Email">
+            </div>
+            <div>
+                <label for="pass"><i class="ri-lock-fill"></i></label>
+                <input type="password" id="pass" placeholder="Enter Password">
+            </div>
+            <div>
+                <label for="confirmpass"><i class="ri-lock-password-fill"></i></label>
+                <input type="password" id="confirmpass" placeholder="Confirm Password">
+            </div>
+            <button class="button" type="submit">Sign Up</button>
+            <p class="login">Already Have an account ? <a href="login.html">Login</a></p>
+        </form>
+       
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
